@@ -1,0 +1,22 @@
+share:
+  - name: twitter
+    url: https://twitter.com/intent/tweet?text=
+
+follow:
+  - name: twitter
+    url: https://twitter.com/SREFrance
+  - name: telegram
+    url: https://twitter.com/SREFrance
+
+content:
+  - title: footer_about
+    links:
+      - name: SRE France
+        url: https://sre-france.github.io/
+        newTab: true
+      - name: Meetup
+        url: https://www.meetup.com/Site-Reliability-Engineering-France/
+        newTab: true
+      - nameKey: footer_coc
+        url: /code-of-conduct/
+        newTab: false

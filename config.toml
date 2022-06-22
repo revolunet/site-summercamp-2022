@@ -1,0 +1,78 @@
+baseURL = "http://summercamp2022.github.io/"
+languageCode = "en-us"
+title = "SummerCamp 2022 - SRE France"
+theme = "devfest-theme-hugo"
+
+enableEmoji = true
+enableRobotsTXT = true
+enableMissingTranslationPlaceholders = true
+
+[params]
+    title = "SummerCamp 2022"
+    date = "2022-08-22"
+    description = "A tech conference close to nature"
+    images = ["/images/social-share.jpg"]
+    email = "srefrance@seminar.io"
+    keywords = "event, cloud, sre, devops, summercamp"
+    copyright = "Made with :heart:️ by SRE France"
+    cfpUrl = "https://github.com/sre-france/meetups/issues/new?assignees=&labels=proposal&template=new-proposal.md&title=Proposal%27s+title"
+    subscriptionUrl = "https://www.eventbrite.com/"
+    appleTouchIcon = "/apple-touch-icon.png"
+    favicon32 = "/favicon-32x32.png"
+    favicon16 = "/favicon-16x16.png"
+    manifest = "/manifest.json"
+    safariPinnedTab = "/safari-pinned-tab.svg"
+    themeColor = "#ff5c5c"
+
+[params.logos]
+    jumbo = "/images/logos/summercamp_color_text.png"
+    header = "/images/logos/summercamp_color_text.png"
+    footer = "/images/logos/summercamp_gray_text.png"
+
+[menu]
+
+[markup.goldmark.renderer]
+unsafe= true
+
+[[menu.main]]
+    identifier = "cfp"
+    name = "CFP"
+    url = "/cfp"
+    weight = 190
+    external = false
+
+[languages]
+[languages.en]
+    weight = 1
+    languageName = "gb"
+
+[languages.fr]
+    weight = 2
+    languageName = "fr"
+
+[languages.fr.params]
+    description = "Une rencontre tech proche de la nature"
+
+[taxonomies]
+  tag = "tags"
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+    respectDoNotTrack = true
+    useSessionStorage = false
+  [privacy.instagram]
+    disable = true
+    simple = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false
+  [privacy.vimeo]
+    disable = true
+    simple = false
+  [privacy.youtube]
+    disable = true
+    privacyEnhanced = true

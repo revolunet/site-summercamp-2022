@@ -1,0 +1,16 @@
+id: sre-france-summercamp-2022
+name: SummerCamp 2022
+address:
+  formattedAddress: "Savoie Technolac, 16 Av. du Lac du Bourget, 73374 Le Bourget-du-Lac"
+  locality:
+    short_name: Bourget-du-Lac
+    long_name: Bourget-du-Lac
+  country:
+    short_name: FR
+    long_name: France
+  latLng:
+    lat: 45.64381
+    lng: 5.8656425
+dates:
+  start: '2022-08-22T09:00:00.000Z'
+  end: '2022-08-23T17:00:00.000Z'
